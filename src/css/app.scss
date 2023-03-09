@@ -1,0 +1,46 @@
+// app global css in SCSS form
+.commonT{
+}
+.commonP{
+
+}
+.m-0{
+    margin: 0;
+}
+.cPtr{
+    cursor: pointer;
+}
+
+
+#q-app{
+    .q-layout{
+        .qHeader{
+            padding: 12px;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.homeImg{
+    width: 100%;
+    height: 100%;
+    padding: 0 24px; 
+    box-sizing: border-box;
+}
+
+.cartLogo{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.CrudTab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 12px;
+    position: relative;
+
+    .AddBtn{
+        align-self: flex-end;
+    }
+}
